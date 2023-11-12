@@ -1,0 +1,29 @@
+/* elegro Crypto Payment styles
+----------------------------------------------------------------- */
+.woocommerce #modal,
+.woocommerce-page #modal {
+  z-index: 1;
+}
+
+#modal {
+  position: static !important;
+  background: none !important;
+  overflow: visible;
+  padding: 0 !important;
+}
+#elegro-reset-wrapper .elegro-widget {
+  margin: 0 !important;
+}
+#modal #elegro-reset-wrapper {
+  margin: 2em 0 3em;
+}
+#modal #elegro-reset-wrapper .elegro-widget {
+  margin: 0 !important;
+}
+#modal[style]+#btn-buy {
+  display: none;
+}
+#elegro-reset-wrapper input,
+#elegro-reset-wrapper .elegro-widget__button{
+	padding: revert;
+}

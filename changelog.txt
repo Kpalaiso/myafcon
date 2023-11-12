@@ -1,0 +1,153 @@
+﻿Version 1.1.4
+	Added:
+		- WP 6.3 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.1.3
+	Fixed:
+		- Import Essential Grid 3.0.17+ plugin
+
+Version 1.1.2
+	Added:
+		- WP 6.1.1 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.1.1
+    Added:
+        - WP 6.0.2 compatibility
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Removed:
+        - Gplus links
+
+Version 1.1.0
+    Added:
+        - New page Esport Club
+        - New page Tennis Club
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Changed:
+        - Update demo data
+
+Version 1.0.14
+    Added:
+        - WP 5.9 compatibility
+        - PHP 8 compatibility
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Changed:
+        - Update demo data
+
+Version 1.0.13
+    Added:
+        - WP 5.8.2 compatibility
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme functions
+        - Improve theme styles
+
+Version 1.0.12
+    Added:
+        - Home Football Livescore page
+        - Home Football Sports Betting page
+        - WP 5.8 compatibility
+    Changed:
+        - Update demo data
+        - Improve theme styles
+
+Version 1.0.11
+    Fixed:
+        - Update plugins to their latest versions
+	    - Theme styles
+	Added:
+	    - PHP 8.0 compatibility
+        - ThemeREX Socials plugin
+	Changed:
+        - Update demo data
+	Removed
+        - Smash Balloon Instagram Feed
+
+Version 1.0.10
+    Changed: 
+        - Update demo data 
+        - Improve theme styles
+
+Version 1.0.9
+	Added:
+        - Skin Golf
+        - Skin JoomSport
+        - Compatibility with WP 5.5
+        - Compatibility with Elementor 3.0
+        - JoomSport plugin (Free) in JoomSport Skin
+
+Version 1.0.8
+	Added
+        - RTL styles
+        - Compatibility with Elegro payment plugin
+
+Version 1.0.7
+    Fixed:
+        - Themerex Addons vulnarability fixed
+
+Version 1.0.6
+    Added:
+        - Skin Basketball
+
+Version 1.0.5
+    Added:
+        - Home 5 page
+        - Home 6 page
+        - Home 7 page
+        - Food drink page
+        - Compatibility with ThemeREX Updater plugin
+    Changed: 
+        - Update demo data 
+        - Improve theme styles
+
+Version 1.0.4
+    Changed: 
+        - Update demo data 
+        - Improve theme styles
+        
+Version 1.0.3
+    Fixed: 
+        - Update plugins to their latest versions
+        - Compatibility with Slider Revolution 6.0.7
+        - Compatibility with Elementor 2.6.6
+        - Compatibility with The Events Calendar 4.9.4
+        - Update scripts  libraries
+    Changed: 
+        - Update demo data 
+Version 1.0.2
+    Fixed:
+        - Compatibility with WooCommerce 3.6
+
+Version 1.0.1
+    Added:
+        - Compatibility with WP 5.1.1
+        - Compatibility with PHP7.3
+
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Update scripts  libraries
+
+    Changed:
+        - Update demo data
+
+Release – v.1.0 (1.0.57.2)
+    - Plugin TRX Addons has been modified.
+        1. Elementor 2.5.0 - Fix

@@ -1,0 +1,74 @@
+/*----- RTL -----*/
+
+.fcunited_options_item_info {
+    border-right: 3px solid #aaa;
+    border-left: 0 solid #aaa;
+}
+.fcunited_options_item_info .fcunited_options_item_title {
+    text-align: right;
+}
+[class*="fcunited_column-"] .fcunited_options_item_title {
+    text-align: right;
+    padding-left: 0;
+}
+.wp-picker-container .wp-color-result.button {
+    margin: 0 6px 6px 0;
+    padding: 0 0 0 30px;
+}
+[class*="fcunited_column-"] .fcunited_options_item_data {
+    text-align: right;
+}
+.fcunited_options_item_switch .fcunited_options_item_label, .fcunited_options_item_radio .fcunited_options_item_label {
+    margin: 0.5em 0 0.5em 1em;
+}
+.fcunited_options_item_title {
+    margin: 0.4em 0 0.5em 0.5em;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.fcunited_range_slider_value {
+    margin-left: 3% !important;
+    margin-right: 0 !important;
+    text-align: right;
+}
+div.ui-accordion .fcunited_accordion_title.ui-accordion-header .ui-icon {
+    margin-left: 0.8em;
+    margin-right: 0;
+}
+.fcunited_list_icons_selector {
+    left: 1px;
+    right: auto;
+    border-right: 1px solid #ccc;
+    border-left: 0 solid #ccc;
+}
+.fcunited_list_icons {
+    left: 0!important;
+}
+.fcunited_admin_notice .fcunited_hide_notice {
+    left: 1em;
+    right: auto;
+}
+.fcunited_admin_notice .fcunited_notice_image {
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
+}
+.fcunited_admin_notice.fcunited_rate_notice .fcunited_notice_title:after {
+    margin-right: 0.5em;
+    margin-left: 0;
+}
+
+/*----- Theme Customizer -----*/
+#customize-header-actions .customize-action-reset {
+    float: left;
+    margin: 0 6px 0 0;
+    max-width: 50px;
+}
+#customize-header-actions .customize-action-refresh {
+    left: auto;
+    right: 60px;
+}
+.customize-control-info > div {
+    border-right: 4px solid #1e8cbe;
+    border-left: 0 solid #1e8cbe;
+}

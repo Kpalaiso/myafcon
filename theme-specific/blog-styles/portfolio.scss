@@ -1,0 +1,25 @@
+/* Blog layout: Portfolio
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+.post_layout_portfolio .post_title {
+	margin: 1em 0 0.4em;
+}
+.post_layout_portfolio .post_featured {
+	margin-bottom:0;
+	@include border-radius(3px);
+}
+.post_layout_portfolio .post_featured[class*="hover_"] {
+	display: block;
+}
+.post_layout_portfolio .post_featured img {
+	width: 100%;
+}
+.post_layout_portfolio .label_sticky {
+	top: -12px;
+	left: -12px;
+	right:auto;
+	@include rotate(135deg);
+}

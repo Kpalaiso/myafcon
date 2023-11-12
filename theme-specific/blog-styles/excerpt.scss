@@ -1,0 +1,79 @@
+/* Blog layout: Excerpt 
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+.post_layout_excerpt_wrap {
+	padding: 50px 50px 50px;
+}
+.post_layout_excerpt {
+	position:relative;
+	margin-bottom:0;
+	@include border-radius(3px);
+	overflow: hidden;
+	z-index: 1;
+}
+.post_layout_excerpt + .post_layout_excerpt {
+	margin-top: 42px;
+}
+.post_layout_excerpt.sticky {
+	padding: 0;
+}
+.post_layout_excerpt .post_featured {
+	display: inline-block;
+	margin: 0;
+}
+.post_layout_excerpt.post_format_audio .post_featured.without_thumb,
+.post_layout_excerpt.post_format_gallery .post_featured.without_thumb {
+	display:block;
+}
+.post_layout_excerpt .post_header {
+	margin: 0;
+	position:relative;
+}
+.post_layout_excerpt .post_header .post_price {
+	width: auto;
+	@include abs-rt;
+	@include font(2.5em, 1.5em);
+}
+.post_layout_excerpt .post_title {
+	margin: 0;
+	font-size: 36px;
+}
+.post_layout_excerpt .post_meta {
+	margin-top: 0;
+	margin-bottom: 0.8rem;
+}
+.post_layout_excerpt .post_header + .post_content {
+	margin-top: 1.4rem;
+}
+
+// First post large in the Classic and Masonry
+body[class*="blog_style_classic"] .post_layout_excerpt,
+body[class*="blog_style_masonry"] .post_layout_excerpt {
+	margin-bottom: 3em;
+}
+
+/* Zoom Style Img */
+.post_layout_excerpt .post_featured img {
+	@include transform(scale(1));
+	@include transition-all(0.5s);
+}
+.post_layout_excerpt .post_featured:hover img {
+	@include transform(scale(1.02));
+}
+
+.post_layout_excerpt .swiper-pagination-bullets {
+	display: none;
+}
+
+.post_layout_excerpt .post_meta_item.post_categories {
+	margin-bottom: 0 !important;
+}
+
+
+.post_layout_excerpt.post_format_audio .post_featured img {
+	display: block;
+}

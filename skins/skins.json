@@ -1,0 +1,26 @@
+{
+	"default": {
+		 "title": "Default",
+		 "description": "",
+		 "version": "1.0",
+		 "demo_url": "//fc-united.axiomthemes.com/"
+	},
+	"joomsport": {
+		 "title": "Joomsport",
+		 "description": "",
+		 "version": "1.0.2",
+		 "demo_url": "//joomsport.fc-united.axiomthemes.com/"
+	},
+	"basketball": {
+		 "title": "Basketball",
+		 "description": "",
+		 "version": "1.0.3.1",
+		 "demo_url": "//bk.fc-united.axiomthemes.com/"
+	},
+	"golf": {
+		 "title": "Golf",
+		 "description": "",
+		 "version": "1.0.3",
+		 "demo_url": "//golf.fc-united.axiomthemes.com/"
+	}
+}

@@ -1,0 +1,77 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+.esg-grid i[class*="eg-icon-"] {
+	color: #fff;
+	@include transition-color(.5s);
+}
+.esg-grid a:hover i[class*="eg-icon-"] {
+	color: #fff;
+}
+.esg-navigationbutton i[class*="eg-icon-"] {
+	color: #fff;
+}
+.esg-navigationbutton:hover i[class*="eg-icon-"] {
+	color: #fff;
+}
+
+.esgbox-share__button {
+	color: #ffffff !important;
+}
+.esgbox-close-small {
+	background: #ddd !important;
+}
+.esgbox-close-small:after {
+	background-color: transparent !important;
+	@include transition-all(0.3s);
+}
+.esgbox-button.esgbox-button--fullscreen {
+	display: none !important;
+}
+
+.esg-entry-cover .eec > div {
+	margin-right: 0 !important;
+}
+
+.esg-entry-cover .eec > div[class*="-element-1-a"] {
+	margin-left: 10px !important;
+}
+
+.esg-starring {
+	vertical-align: top;
+}
+.esg-starring .star-rating, .esg-starring-page .star-rating {
+	width: 6em;
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.esgbox-overlay {
+	z-index: 228010 !important;
+}
+.esgbox-opened {
+	z-index: 228030 !important;
+}
+
+.wp-widget-ess-grid-widget ul > li:before {
+	display: none !important;
+}
+
+.esg-filters .esg-filter-wrapper {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	margin-bottom: 43px !important;
+	width: 100%;
+	overflow: hidden;
+	@include border-radius(3px);
+}
